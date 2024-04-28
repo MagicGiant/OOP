@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>test</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Business\Business.csproj" />
+      <ProjectReference Include="..\DataAccesLayer\DataAccesLayer.csproj" />
+      <ProjectReference Include="..\PresentationLayer\PresentationLayer.csproj" />
+    </ItemGroup>
+
+</Project>
